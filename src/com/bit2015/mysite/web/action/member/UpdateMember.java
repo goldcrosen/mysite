@@ -1,0 +1,26 @@
+package com.bit2015.mysite.web.action.member;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.bit2015.mysite.dao.MemberDao;
+import com.bit2015.mysite.vo.MemberVo;
+import com.bit2015.web.action.Action;
+
+public class UpdateMember implements Action {
+
+	@Override
+	public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+		MemberVo vo = new MemberVo();
+		MemberDao dao = new MemberDao();
+		
+		
+	
+
+	}
+
+}
